@@ -2,11 +2,11 @@
 require File.expand_path('../lib/activerecord-import/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Zach Dennis"]
-  gem.email         = ["zach.dennis@gmail.com"]
+  gem.authors       = ["Zach Dennis", "Mike Kopchick"]
+  gem.email         = ["zach.dennis@gmail.com", "kopchickm@gmail.com"]
   gem.summary       = "Bulk-loading extension for ActiveRecord"
   gem.description   = "Extraction of the ActiveRecord::Base#import functionality from ar-extensions for Rails 3 and beyond"
-  gem.homepage      = "http://github.com/zdennis/activerecord-import"
+  gem.homepage      = "http://github.com/kopchickm/activerecord-import"
   gem.license       = "Ruby"
 
   gem.files         = `git ls-files`.split($\)
